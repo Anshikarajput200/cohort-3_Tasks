@@ -1,0 +1,113 @@
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+   }
+   html,body{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #111;
+   }
+  .container{
+    width: 900px;
+    height: 600px;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    box-shadow:0 20px 80px rgba(174,164,164,0.839) ;
+  }
+   /* left side */
+
+  .left{
+    width:60% ;
+    background-color: #f4c41e;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+  }
+  /* pokemon logo */
+  .logo{
+    position: absolute;
+    top: 16px;
+    left:36px;
+    width: 130px;;
+  }
+  /* h4 */
+  .left h4{
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+  }
+  .left h1{
+    font-size: 80px;
+    /* font-weight: 900; */
+    margin-bottom: 20px;
+    color:rgb(1,1,1);
+  }
+  .left p{
+    width: 300px;
+    line-height: 1.6;
+    font-size: 15px; 
+    color: rgb(56,53,53);
+  }
+  .count{
+    margin-top: 40px;
+    /* font-size: 22px; */
+    display: flex;
+    align-items: center;
+    gap:20px;
+  }
+  .count span{
+    width: 45px;
+    height: 2px;
+    background-color:#111;
+  }
+
+  /* Right side*/
+  
+  .right{
+    width: 40%;
+    background:#fde68a ;
+  }
+  .menu{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 27px;
+    opacity: 0.8;
+  }
+  .pikachu{
+    position: absolute;
+    right:55px;
+    top:40px;
+  }
+  .right .dots{
+    position:absolute;
+    right: 34px;
+    top:240px;
+    display: flex;
+    flex-direction: column;
+    color: #f4c41e;
+    font-size: 20px;
+    gap:1px;
+  }
+  .first-dot{
+    color: black;
+    font-size: 26px;
+  }
+  .pokeball{
+    opacity: 0.3;
+    position: absolute;
+    width:180px;
+    bottom: -62px;
+    left:40px;
+  }
