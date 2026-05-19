@@ -1,0 +1,419 @@
+<<<<<<< HEAD
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+main{
+    height:100%;
+    width:100%;
+    justify-content: center;
+    position: relative;
+    background-color: rgb(9, 9, 9);
+    border-radius: 30px;
+    display: grid;
+    padding: 2px;
+    gap: 2px;
+    grid-template-columns: 22% 20% 17% 17% 22%  ;
+    grid-template-rows:17% 17% 17% 16% 30% ;
+    grid-template-areas: 
+    "top-left  top-left top-1 top-2  top-right1 "
+    "top-left  top-left  top-1 top-2  top-right2  "
+    " centre-left1 centre-left2  centre  centre top-right2 "
+    " centre-left1 centre-left2  centre  centre centre-right1"
+    " bottom-left  bottom-left bottom-left  bottom-right bottom-right"
+    ;
+    
+
+}
+
+.top-left{
+background-color: rgb(12, 12, 12);
+grid-area: top-left;
+border: 2px solid white;
+border-radius:25px ;
+padding: 70px;
+
+}
+
+
+.top-left h1{
+
+font-size: 30px;
+color: aliceblue;
+position: relative;
+
+
+}
+ .top-left h3{
+  font-size: 20px;
+  color: dimgray;
+  position: relative;
+  
+ }
+
+ .top-left img{
+    border-radius: 100%;
+    height: 10%;
+    position: relative;
+ }
+
+ .top-left h2{
+    color: aliceblue;
+    align-items: center;
+ }
+.top-left p{
+    color: aliceblue;
+}
+.top-1{
+background-color: rgb(12, 12, 12);
+grid-area: top-1;
+border: 2px solid white;
+border-radius:25px ;
+padding: 30px;
+}
+
+    
+.top-2{
+background-color: rgb(12, 12, 12);
+grid-area: top-2;
+border: 2px solid white;
+border-radius:25px ;
+padding: 30px;
+}
+
+.top-right1{
+    background-color: rgb(12, 12, 12);
+    grid-area: top-right1;
+    border: 2px solid white;
+    border-radius:25px ;
+    padding: 30px;
+
+
+}
+
+.top-right1 img{
+    border-radius: 5%;
+    height: 100%;
+    width: 100%;
+    position: relative;
+    color: dimgray;
+}
+
+.top-right2{
+background-color: rgb(13, 13, 13);
+grid-area: top-right2;
+border: 2px solid rgb(247, 246, 246);
+border-radius:25px ;
+padding: 30px;
+}
+
+.top-right2 p{
+    font-size: 20px;
+    color: dimgray;
+    text-align: center;
+}
+.top-right2 h2{
+    font-size: 30px;
+    font-weight: 20px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.top-right2 img{
+    width:20%;
+    height: 20%;
+    margin-left: 70%;
+    margin-top: 60px;
+}
+
+
+
+
+.centre-left1{
+background-color: rgb(9, 9, 9);
+grid-area: centre-left1;
+border: 2px solid white;
+border-radius:25px ;
+padding: 30px;
+
+}
+
+.centre-left2{
+background-color: rgb(7, 7, 7);
+grid-area: centre-left2;
+border: 2px solid white;
+border-radius:25px ;
+padding: 30px;
+
+}
+
+.centre{
+background-color: rgb(1, 11, 1);
+grid-area: centre;
+border: 2px solid white;
+border-radius:25px ;
+padding: 60px;
+}
+
+.centre-right1{
+background-color: rgb(5, 5, 5);
+grid-area: centre-right1;
+border: 2px solid white;
+border-radius:25px ;
+padding: 30px;
+color: linear radial(white);
+}
+
+
+.bottom-right{
+background-color: rgb(12, 12, 12);
+grid-area: bottom-right;
+border: 2px solid white;
+border-radius:25px ;
+padding: 30px;
+}
+
+.bottom-right p{
+ font-size: 30px;
+ text-align: center;
+ color: dimgray;
+}
+
+.bottom-right h2{
+font-size: 30px;
+ text-align: center;
+ color: aliceblue;
+}
+
+.bottom-right h3{
+font-size: 30px;
+ text-align: center;
+ color: darkgrey;
+}
+.bottom-right img{
+    height: 70px;
+    width: 70px;
+    margin-left:70%;
+    margin-top: 10%;
+    
+}
+
+
+.bottom-left h1{
+ font-size: 50px;
+ text-align: center;
+ color: aliceblue;
+ display: flex;
+}
+
+.bottom-left h3{
+font-size: 30px;
+text-align: center;
+color: dimgrey;
+display: flex;
+}
+.bottom-left{
+ background-color: rgb(12, 12, 12);  
+ grid-area: bottom-left; 
+ border: 2px solid white;
+ border-radius:25px ;
+ padding: 70px;
+}
+.bottom-left img{
+    
+width: 200px;
+height: 100px;
+margin-left: 1000px;
+margin-top: 0px;
+display: flexbox;
+justify-content: center;
+    
+}
+
+
+.top-1 img{
+    width: 100%;
+    height:100%;
+    object-fit: cover;
+    padding: 2px;
+    border-radius: 10%;
+    
+
+}
+
+.top-2 img{
+    width: 100%;
+    height:100%;
+    
+    padding: 2px;
+    border-radius: 10%;
+}
+
+.centre-left1 img{
+  width: 100%;
+    height:100%;
+    object-fit: cover;
+    padding: 0.5%;
+    border-radius: 10px;
+
+}  
+
+.centre img{
+   width: 100%;
+    height:100%;
+    
+    padding: 4px;
+    border-radius: 10px;
+ 
+}
+
+.centre-right1 img{
+   width: 100%;
+    height:100%;
+    object-fit: cover;
+    padding: 2%;
+    border-radius: 10px; 
+}
+.centre-right1 img{
+    height: 90%;
+    width: 90%;
+}
+ .centre-left2 h3{
+    font-size: 20px;
+    color: darkgrey;
+ }
+ .centre-left2 h2{
+    font-size: 30px;
+     font-weight: 20%; 
+     color: beige             ;
+ }
+
+ .centre-left2 img{
+    width:80%;
+    height: 80%;
+    position: relative;
+    border-radius: 10px;
+ }
+
+=======
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+   }
+   html,body{
+    height: 100%;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    /* align-items: center; */
+    background: #111;
+   }
+  .container{
+    width: 900px;
+    height: 600px;
+    background: white;
+    border-radius: 18px;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    box-shadow:0 20px 80px rgba(174,164,164,0.839) ;
+  }
+   /* left side */
+
+  .left{
+    width:60% ;
+    background-color: #f4c41e;
+    padding-top: 160px;
+    padding-bottom: 80px;
+    padding-left: 60px;
+    padding-right: 60px;
+    position: relative;
+  }
+  /* pokemon logo */
+  .logo{
+    position: absolute;
+    top: 16px;
+    left:36px;
+    width: 130px;;
+  }
+  /* h4 */
+  .left h4{
+    letter-spacing: 3px;
+    font-size: 13px;
+    margin-bottom: 20px;
+    /* font-weight: bold; */
+  }
+  .left h1{
+    font-size: 80px;
+    /* font-weight: 900; */
+    margin-bottom: 20px;
+    color:rgb(1,1,1);
+  }
+  .left p{
+    width: 300px;
+    line-height: 1.6;
+    font-size: 15px; 
+    color: rgb(56,53,53);
+  }
+  .count{
+    margin-top: 40px;
+    /* font-size: 22px; */
+    display: flex;
+    align-items: center;
+    gap:20px;
+  }
+  .count span{
+    width: 45px;
+    height: 2px;
+    background-color:#111;
+  }
+
+  /* Right side*/
+  
+  .right{
+    width: 40%;
+    background:#fde68a ;
+  }
+  .menu{
+    position: absolute;
+    top: 35px;
+    right: 35px;
+    font-size: 27px;
+    opacity: 0.8;
+  }
+  .pikachu{
+    position: absolute;
+    right:55px;
+    top:40px;
+  }
+  .right .dots{
+    position:absolute;
+    right: 34px;
+    top:240px;
+    display: flex;
+    flex-direction: column;
+    color: #f4c41e;
+    font-size: 20px;
+    gap:1px;
+  }
+  .first-dot{
+    color: black;
+    font-size: 26px;
+  }
+  .pokeball{
+    opacity: 0.3;
+    position: absolute;
+    width:180px;
+    bottom: -62px;
+    left:40px;
+  }
+>>>>>>> 938194c4d816c0a9cf4cf3a2c4f28fb38d8d40e4
