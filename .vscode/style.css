@@ -1,15 +1,15 @@
 
 font-face {
     font-family: areaNormal;
-    src: url(/Ass_2_easy_assets/fonnts.com-Area_Normal_Regular.otf);
+    src: url(/Task2.2/Ass_2_easy_assets/fonnts.com-Area_Normal_Regular.otf);
 }
 @font-face {
     font-family: areaBold;
-    src: url(/Ass_2_easy_assets/fonnts.com-Area_Normal_Bold.otf);
+    src: url(/Task2.2/Ass_2_easy_assets/fonnts.com-Area_Normal_Bold.otf);
 }
 @font-face {
     font-family: areaExtraBold;
-    src: url(/Ass_2_easy_assets/fonnts.com-Area_Normal_ExtraBold.otf);
+    src: url(/Task2.2/Ass_2_easy_assets/fonnts.com-Area_Normal_ExtraBold.otf);
 }
 
 *{
